@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 1440px) {
     .body {
-        padding: 2rem calc((100vw - 1086px)/2);
+        padding: rem calc((100vw - 1086px)/2);
     }
 }
 
@@ -127,7 +127,7 @@
 }
 
 .dashboard__item__button--return {
-    background-color: #01080E;
+    background-color: #005197;
 }
 
 .hachuras {
