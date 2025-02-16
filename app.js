@@ -21,11 +21,11 @@ function alterarStatus(id) {
 
         if (imagem) {
             imagem.classList.remove("dashboard__item__img");
-            imagem.classList.add("dashboard__item__img--rented");
+            imagem.classList.add("dashboard__item__img", "dashboard__item__img--rented");
         }
         if (botao) {
-            botao.classList.remove("dashboard__item__img");
-            botao.classList.add("dashboard__item__button--return");
+            botao.classList.remove("dashboard__item__button");
+            botao.classList.add("dashboard__item__button", "dashboard__item__button--return");
         }
         jogoEmQuestao.disponibilidade = "indisponivel";
         
